@@ -116,8 +116,8 @@ The dashboard opens at `http://localhost:8501`. On Mac/Linux, use `python3` and 
 │   └── generate_sample_data.py   # synthetic demo dataset generator
 ├── app.py                        # Streamlit dashboard
 ├── requirements.txt
-├── Research_Paper_Delivery_Performance_Analysis.docx
-├── Executive_Summary.docx
+├── Delivery Performance, Delay Risk and Logistics Efficiency Analysis - Research Paper.docx
+├── Executive Summary - Delivery Performance and Delay Risk Analysis.docx
 └── README.md
 ```
 
@@ -128,7 +128,7 @@ Python · pandas · NumPy · Plotly · Streamlit
 ## 📄 Documents
 
 - **Research paper:** `Delivery Performance, Delay Risk and Logistics Efficiency Analysis - Research Paper.docx`
-- **Executive summary:** `Executive_Summary.docx`
+- **Executive summary:** `Executive Summary - Delivery Performance and Delay Risk Analysis.docx`
 
 ## 👤 Author
 
