@@ -127,7 +127,7 @@ Python · pandas · NumPy · Plotly · Streamlit
 
 ## 📄 Documents
 
-- **Research paper:** `Research_Paper_Delivery_Performance_Analysis.docx`
+- **Research paper:** `Delivery Performance, Delay Risk and Logistics Efficiency Analysis - Research Paper.docx`
 - **Executive summary:** `Executive_Summary.docx`
 
 ## 👤 Author
