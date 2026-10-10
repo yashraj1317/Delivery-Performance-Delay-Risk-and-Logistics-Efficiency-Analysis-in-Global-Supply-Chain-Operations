@@ -45,11 +45,11 @@ def find_source_file() -> Path:
     for f in CANDIDATE_FILES:
         if f.exists():
             return f
-    raise FileNotFoundError(
-        "No dataset found in data/raw/. Place your CSV there as "
-        "'supply_chain_data.csv' (or 'supply_chain_data.csv.gz'), "
-        "or run generate_sample_data.py for a demo dataset."
-    )
+    # No dataset in the repo: auto-generate the synthetic demo dataset so the app still runs
+    # (this is what happens on Streamlit Cloud when the data folder is not uploaded).
+    import generate_sample_data
+    generate_sample_data.main()
+    return generate_sample_data.OUT_PATH
 
 
 def read_dataset(path: Path) -> pd.DataFrame:
